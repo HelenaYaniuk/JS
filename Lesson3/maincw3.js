@@ -1,7 +1,7 @@
 // зробити масив з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
 let numbers=[1,2,3,4,5,6,7,8,9,10];
 // 1. перебрати його циклом while
-i=0;
+let i=0;
 while(i<numbers.length){
     console.log(numbers[i]);
     document.write(numbers[i]);
@@ -13,14 +13,14 @@ for (let i=0;i< numbers.length;i++) {
     document.write(numbers[i]);
 }
 // 3. перебрати циклом while та вивести  числа тільки з непарним індексом
-i=0;
-while(i<numbers.length) {
+let j=0;
+while(j<numbers.length) {
     if(i%2 !==0){
-        console.log(numbers[i]);
-        document.write(numbers[i]);
+        console.log(numbers[j]);
+        document.write(numbers[j]);
 
     }
-    i++;
+   j++;
 }
 // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
 for (let i=0;i< numbers.length;i++) {
@@ -31,14 +31,14 @@ for (let i=0;i< numbers.length;i++) {
     }
 }
 // 5. перебрати циклом while та вивести  числа тільки парні  значення
-i=0;
-while(i<numbers.length) {
-    if(i%2 === 1){
-        console.log(numbers[i]);
-        document.write(numbers[i]);
+let m=0;
+while(m<numbers.length) {
+    if(m%2 === 1){
+        console.log(numbers[m]);
+        document.write(numbers[m]);
 
     }
-    i++;
+    m++;
 }
 // 6. перебрати циклом for та вивести  числа тільки парні  значення
 for (let i=0;i< numbers.length;i++) {
@@ -63,21 +63,21 @@ for (let i = numb.length-1;i>=0 ;i--) {
     document.write(numb[i]);
 }
 // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
-i=numb.length-1;
-while(i>=0){
-    console.log(numb[i]);
-    document.write(numb[i]);
-    i--;
+let f =numb.length-1;
+while(f>=0){
+    console.log(numb[f]);
+    document.write(numb[f]);
+    f--;
 }
 
-i=numb.length-1;
-while(i>=0) {
-    if(i%2 !==0){
-        console.log(numb[i]);
-        document.write(numb[i]);
+let r=numb.length-1;
+while(r>=0) {
+    if(r%2 !==0){
+        console.log(numb[r]);
+        document.write(numb[r]);
 
     }
-    i--;
+    r--;
 }
 for (let i= numb.length-1;i>=0 ;i--) {
 
@@ -86,14 +86,14 @@ for (let i= numb.length-1;i>=0 ;i--) {
         document.write(numb[i]);
     }
 }
-i=numb.length-1;
-while(i>=0) {
-    if(i%2 === 1){
-        console.log(numb[i]);
-        document.write(numb[i]);
+let t=numb.length-1;
+while(t>=0) {
+    if(t%2 === 1){
+        console.log(numb[t]);
+        document.write(numb[t]);
 
     }
-    i--;
+    t--;
 }
 for (let i=numb.length-1;i>=0;i--) {
 
