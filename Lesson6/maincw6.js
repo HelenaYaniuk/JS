@@ -17,9 +17,10 @@
 //             if (item) newVal.push(item);
 //         })
 //         console.log(vall.join(' '));
+//         return vall;
 //     }
 // }
-// console.log(val(n1, '..'));
+// val(n1, '..'); - не працює, можна не перевіряти.
 // - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 let mas=(lenght)=>{
     let random =[];
