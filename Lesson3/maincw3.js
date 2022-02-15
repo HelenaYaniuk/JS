@@ -212,4 +212,4 @@ for (let simpson of simpsons) {
 //         price: 15,
 //         image: 'https://yogiproducts.com/wp-content/uploads/2009/03/YT-US-CAR-RelaxedMind-C23-202201-V2-3DFront_withGlow-300DPI-1.png'
 //     },
-// ]; - не встигла зробити, планую доробити на тижні
+// ];

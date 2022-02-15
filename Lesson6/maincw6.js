@@ -6,21 +6,20 @@
 // let n1 = 'Harry Potter'
 // let n2 = 'Ron Whisley'
 // let n3 = 'Hermione Granger'
-// let n1 = 'Harry..Potter';
-// let n2 = 'Ron---Whisley';
-// let n3 = 'Hermione__Granger';
-// let val=(string,smb)=>{
-//     let vall =[];
-//     if(string.includes(smb)){
-//         let newVal = string.split(smb);
-//         newVal.forEach((item)=>{
-//             if (item) newVal.push(item);
-//         })
-//         console.log(vall.join(' '));
-//         return vall;
-//     }
-// }
-// val(n1, '..'); - не працює, можна не перевіряти.
+let n1 = 'Harry..Potter';
+let n2 = 'Ron---Whisley';
+let n3 = 'Hermione__Granger';
+let val=(string,smb)=>{
+    let vall =[];
+    if(string.includes(smb)){
+        let newVal = string.split(smb);
+        newVal.forEach((item)=>{
+            if (item) vall.push(item);
+        })
+    }
+    return vall.join(' ');
+}
+console.log (val(n3, '__'));
 // - створити функцію, яка генерує масив рандомних числових цілих значень в діапазоні від 0 до 100.
 let mas=(lenght)=>{
     let random =[];
