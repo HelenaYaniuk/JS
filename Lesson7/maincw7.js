@@ -106,7 +106,7 @@ class Prince{
         this.findShose = findShose;
     }
 }
-let prince = new Prince('Lukas', 27,35),
+let prince = new Prince('Lukas', 27,35);
 // За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 let couple =(cinderellas,prince)=>{
     for (const item of cinderellas) {
